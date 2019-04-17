@@ -17,12 +17,12 @@ When everything is set, please kindly run the file "server.js" by running "node 
 This launches the API, which can be used directly by visiting "http://localhost:3000" on any web browser.
 
 The API has five functionalities: add, all, search, delete and edit.
-Initially, the API is equipped with an empty database to store the menu.
+Initially, the API is equipped with a pre-created, built-in empty two-column table database to store the menu.
 
 The database is a table with two columns, ID and Name, corresponding to the IDs and names of the menu items.
 
 Any new item is directly added into the table by visiting "http://localhost:3000/add/item_id/item_name".
-For example, "http://localhost:3000/add/1/chicken" adds a menu item with ID=1 and Name='chicken'.
+For example, "http://localhost:3000/add/1/chicken" adds a menu item with ID = 1 and Name = "chicken".
 The add function can be used multiple times to quickly populate the menu.
 
 The current menu is displayed at the console anytime by navigating to "http://localhost:3000/all".
