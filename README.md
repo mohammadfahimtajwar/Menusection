@@ -19,7 +19,7 @@ This launches the API, which can be used directly by visiting "http://localhost:
 The API has five functionalities: add, all, search, delete and edit.
 Initially, the API is equipped with a pre-created, built-in empty two-column table database to store the menu.
 
-The database is a table with two columns, ID and Name, corresponding to the IDs and names of the menu items.
+The two columns are ID and Name, corresponding to the IDs and names of the menu items.
 
 Any new item is directly added into the table by visiting "http://localhost:3000/add/item_id/item_name".
 For example, "http://localhost:3000/add/1/chicken" adds a menu item with ID = 1 and Name = "chicken".
@@ -30,12 +30,12 @@ This function instantly prints the present situation of the menu on the terminal
 
 The search function searches a menu item by ID and can be executed by visiting "http://localhost:3000/search/item_id".
 If any item exists with the given ID, the item ID and name would be displayed on the console.
-For example, after adding chicken with ID=1, going to "http://localhost:3000/search/1", would deliver the menu item on console.
+For example, after adding chicken with ID = 1, going to "http://localhost:3000/search/1", would deliver the item on console.
 
 The delete function deletes a menu item by ID and can be executed by going to "http://localhost:3000/delete/item_id".
-For example, after adding chicken with ID=1, going to "http://localhost:3000/delete/1" deletes chicken off the menu database.
+For example, after adding chicken with ID = 1, going to "http://localhost:3000/delete/1" deletes chicken off the database.
 
 Finally, the edit function can be used to change the name of a menu item through "http://localhost:3000/edit/previous/new".
-For example, if the menu has chicken, visiting "http://localhost:3000/edit/chicken/lamb" changes the item from chicken to lamb.
+For example, if the menu has chicken, visiting "http://localhost:3000/edit/chicken/lamb" changes Name from chicken to lamb.
 
 These are the five functionalities of the API and it has been designed to be as user-friendly as possible.
