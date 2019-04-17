@@ -1,17 +1,19 @@
 # Menusection
-An SQLite-powered Javascript Web RESTful API Backend for Restaurant Menus
+An SQLite-persistence Node.js Web RESTful API Backend for Restaurant Menus
 
-This is the code for a Restful API used for updating, deleting, viewing, searching and editing menus, written in Javascript.
+This is the code for a RESTful API used for updating, deleting, viewing, searching and editing menus, written using Node.js.
 The IDE achieves its functionality from data persistence through a built-in SQLite database.
-Please kindly download the code into any suitable Javascript IDE, maintaining the file structure.
+Please kindly download the code into any suitable Javascript IDE (Webstorm preferred), maintaining the file structure.
 
 The IDE needs to be equipped with node for the code to run.
 The code also uses two other important dependencies: express and sqlite.
+The best way to directly install all dependencies is to run "npm install" after downloading all the files into an IDE project.
+This should set up the program and make the API ready for use.
 
-If not previously installed, express can be easily installed by typing "npm install express --save" on the IDE terminal.
+On a side note, express can be individually installed by typing "npm install express --save" on the IDE terminal.
 Similarly, Sqlite is readily installed instantly by running "npm install sqlite --save" on the IDE.
 
-When everything is set, please kindly run the file 'server.js' by running "node server.js" on terminal.
+When everything is set, please kindly run the file "server.js" by running "node server.js" on terminal.
 This launches the API, which can be used directly by visiting "http://localhost:3000" on any web browser.
 
 The API has five functionalities: add, all, search, delete and edit.
