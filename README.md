@@ -11,7 +11,7 @@ The best way to directly install all dependencies is to run "npm install" after 
 This should set up the program and make the API ready for use.
 
 On a side note, express can be individually installed by typing "npm install express --save" on the IDE terminal.
-Similarly, Sqlite is readily installed instantly by running "npm install sqlite --save" on the IDE.
+Similarly, SQLite is readily installed instantly by running "npm install sqlite --save" on the IDE.
 
 When everything is set, please kindly run the file "server.js" by running "node server.js" on terminal.
 This launches the API, which can be used directly by visiting "http://localhost:3000" on any web browser.
