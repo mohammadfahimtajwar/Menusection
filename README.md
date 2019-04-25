@@ -4,7 +4,7 @@ An SQLite-persistence Node.js Web RESTful API Backend for Restaurant Menus
 This is the code for a RESTful API used for updating, deleting, viewing, searching and editing menus, written using Node.js.
 The program achieves its functionality from data persistence through a built-in SQLite database.
 
-Please kindly download the code into any suitable Javascript IDE (Webstorm preferred), maintaining the file structure.
+Please kindly download the code into any suitable JavaScript IDE (Webstorm preferred), maintaining the file structure.
 The IDE needs to be equipped with node for the code to run.
 The code also uses two other important dependencies: express and sqlite.
 The best way to directly install all dependencies is to run "npm install" after downloading all the files into an IDE project.
